@@ -15,8 +15,13 @@ let risultato;
 if (operazione === "sconto"){
 	console.log("il risultato e");
 	risultato =op.sconto(importo,percentuale);
+}else if (operazione === "iva"){
+	console.log("il risultato e");
+	risultato =op.iva(importo,percentuale);
 }else{
 console.log("operazione non riconosciuta");
 
 }
+
+
 console.log(risultato);
